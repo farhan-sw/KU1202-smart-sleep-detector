@@ -69,7 +69,7 @@ Adafruit_MPU6050 mpu;
 
 // SETUP
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   // SETUP WIFI DAN DATABASE
   setupWifi();
 
